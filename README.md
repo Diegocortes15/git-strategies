@@ -26,7 +26,7 @@ This branching strategy consists of main branches and support branches.
 - `Hotfix` branches are used to create emergency fixes.  
 - They are branched directly from a tagged release in the `master` branch, and when finished are merged back into both `master` and `develop` to make sure that the hotfix isn’t accidentally lost when the next regular release occurs.  
 
-![](https://nvie.com/img/git-model@2x.png)
+![Git flow diagram](https://i.ibb.co/dgbP6Lj/GitFlow.jpg)
 
 ## GitLab Flow
 
