@@ -32,16 +32,16 @@ When the feedback has been discussed and implemented, the final version in the _
 
 ### Pros
 
--Its simple which makes it easy to understand and apply.
--It allows its old and new users to hit the ground running which also increases they're chances of mastering additional tools to improve its effectiveness and quality.
--It favours agile projects that require constant deployment and generation of value.
--It incentivizes consensus on the quality and the need of changes through the use of Pull Requests.
+- Its simple which makes it easy to understand and apply.
+- It allows its old and new users to hit the ground running which also increases they're chances of mastering additional tools to improve its effectiveness and quality.
+- It favours agile projects that require constant deployment and generation of value.
+- It incentivizes consensus on the quality and the need of changes through the use of Pull Requests.
 
 ### Cons
 
--Its less strict and it initially lacks tools to secure control over a project.
--It could be considered volatile compared to other Flows due to its fast deployment.
--Its not the best fit for projects that ship more infrequently.
+- Its less strict and it initially lacks tools to secure control over a project.
+- It could be considered volatile compared to other Flows due to its fast deployment.
+- Its not the best fit for projects that ship more infrequently.
 
 ## GitLab Flow
 
