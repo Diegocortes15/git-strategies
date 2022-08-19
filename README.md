@@ -1,5 +1,9 @@
 # git-strategies
 
+## Git Flow
+
+Git flow is a branching strategy created by [Vincent Driessen] (https://github.com/nvie) in which two types of branches are used: main branches and support branches.
+
 ## GitLab Flow
 
 [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) combines feature-driven development and feature branching with issue tracking.
