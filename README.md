@@ -1,5 +1,26 @@
 # git-strategies
 
+## GitHub Flow
+
+[GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) is established on creating branches around features and 
+deploying often through Main.
+
+Whereas Git Flow focuses on keeping an alternate environment found in a dev branch, GitHub Flow makes use of a more direct and agile approach by merging (and deleting thereafter) completed working branches into main and assuming that whenever the prior happens then Main is ready for deployment.
+
+Having less intermediate steps, GitHub Flow favours simplicity and ease of use over thorough control, but that doesn't mean that is doesn't have tools to help maintain a proper production environment. Before any changes can be done to Main, merges from branches must go through a Pull Request such that they can be reviewed for functionality, quality and correctness before they are introduced and deployed.
+
+As such GitHub Flow is a workflow that is extremely easy to pick up and follow, which also provides some deployment guidelines to ensure quality and agility making it a popular choice for development projects.
+
+### In practice
+
+The flow starts with the **main** branch which becomes the base for future branches made with the purpose of developing new features.
+
+Once a _feature branch_ has finalized its development process, a Pull Request must be made in order to bring its changes over to **main**. Since the new changes are to be deployed once the Pull Request is approved, most of the times project directives are set in place such that there needs to be a review and subsequent green light provided by teams like QA in order to proceed with the merge.
+
+![](https://i0.wp.com/build5nines.com/wp-content/uploads/2018/01/GitHub-Flow.png?fit=900%2C310&ssl=1)
+
+When the feedback has been discussed and implemented, the final version in the _feature branch_ is evaluated via testing and if there are no problems then the merge is carried out to **main** and promptly deployed.
+
 ## GitLab Flow
 
 [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) combines feature-driven development and feature branching with issue tracking.
