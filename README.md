@@ -2,7 +2,19 @@
 
 ## Git Flow
 
-Git flow is a branching strategy created by [Vincent Driessen](https://github.com/nvie) in which two types of branches are used: main branches and support branches.
+Git flow is a branching strategy created by [Vincent Driessen](https://github.com/nvie). It enables parallel development where developers can work separately from the master branch on features where a feature branch is created from the master branch. Afterwards, when changes are complete, the developer merges these changes back to the master branch for release. 
+
+This branching strategy consists of main branches and support branches.
+
+- **Main branches**
+    
+    - `master`: This branch contains production code. All development code is merged into `master` in sometime.
+    - `develop`: This branch contains pre-production code. When the features are finished then they are merged into `develop`.  
+    &nbsp;
+-  **Support branches**
+   -  `feature`: Feature branches are used to develop new features for the upcoming releases. May branch off from `develop` and must merge into `develop`.
+   -  `hotfix`: hotfix branches are necessary to act immediately upon an undesired status of `master`. May branch off from `master` and must merge into `master` and `develop`.
+   -  `release`: Release branches support preparation of a new production release. They allow many minor bug to be fixed and preparation of meta-data for a release. May branch off from `develop` and must merge into `master` and `develop`.
 
 ## GitLab Flow
 
