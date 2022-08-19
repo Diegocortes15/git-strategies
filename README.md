@@ -28,6 +28,17 @@ This branching strategy consists of main branches and support branches.
 
 ![Git flow diagram](https://i.ibb.co/dgbP6Lj/GitFlow.jpg)
 
+### Pros
+
+- It allows for parallel development to protect the production code so the main branch remains stable for release while developers work on separate branches.
+- The various types of branches make it easier for developers to organize their work.
+-  Ideal when handling multiple versions of the production code.
+
+### Cons
+- As more branches are added, they may become difficult to manage as developers merge their changes from the development branch to the main.
+- It could become increasingly difficult to figure out where exactly an issue is.
+- It is not an efficient approach for teams wanting to implement continuous integration and continuous delivery.
+
 ## GitLab Flow
 
 [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) combines feature-driven development and feature branching with issue tracking.
