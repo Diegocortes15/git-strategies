@@ -21,6 +21,23 @@ Once a _feature branch_ has finalized its development process, a Pull Request mu
 
 When the feedback has been discussed and implemented, the final version in the _feature branch_ is evaluated via testing and if there are no problems then the merge is carried out to **main** and promptly deployed.
 
+### Why use GitHub Flow?
+
+[How GitHub Flow works and when to choose it](https://githubflow.github.io/)
+
+### Pros
+
+-Its simple which makes it easy to understand and apply.
+-It allows its old and new users to hit the ground running which also increases they're chances of mastering additional tools to improve its effectiveness and quality.
+-It favours agile projects that require constant deployment and generation of value.
+-It incentivizes consensus on the quality and the need of changes through the use of Pull Requests.
+
+### Cons
+
+-Its less strict and it initially lacks tools to secure control over a project.
+-It could be considered volatile compared to other Flows due to its fast deployment.
+-Its not the best fit for projects that ship more infrequently.
+
 ## GitLab Flow
 
 [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) combines feature-driven development and feature branching with issue tracking.
