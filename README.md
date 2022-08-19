@@ -1,5 +1,10 @@
 # git-strategies
 
+## Contents
+
+- [GitHub Flow](#github-flow)
+- [GitLab Flow](#gitlab-flow)
+
 ## GitHub Flow
 
 [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) is established on creating branches around features and 
