@@ -1,1 +1,3 @@
 # git-strategies
+
+## GitLab Flow
