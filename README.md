@@ -29,3 +29,15 @@ When passing in the automated tests, a merge must be done for the production bra
 A tag must be created to mark a stable version of the system and the feature branch must be removed to make the repository more organized.
 
 ![](https://github.com/jadsonjs/gitlab-flow/raw/master/images/flow6.png)
+
+### Pros
+
+- This flow guarantees a clean state in the branches at any point in the project life cycle.
+- It defines how to do Continuous Integration and Continuous Delivery
+- It is very flexible according to the team's decisions
+- It is less complex than GitFlow Workflow
+
+### Cons
+
+- It is more complex than GitHub Workflow
+- Git's history becomes unreadable due to the various Merge Requests between branches.
