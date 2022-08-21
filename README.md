@@ -1,6 +1,11 @@
 # git-strategies
 
-<<<<<<< HEAD
+## Contents
+
+- [Git Flow](#git-flow)
+- [GitHub Flow](#github-flow)
+- [GitLab Flow](#gitlab-flow)
+
 ## Git Flow
 
 Git flow is a branching strategy created by [Vincent Driessen](https://github.com/nvie). It enables parallel development where developers can work separately from the master branch on features where a feature branch is created from the master branch. Afterwards, when changes are complete, the developer merges these changes back to the master branch for release. 
@@ -39,11 +44,6 @@ This branching strategy consists of main branches and support branches.
 - As more branches are added, they may become difficult to manage as developers merge their changes from the development branch to the main.
 - It could become increasingly difficult to figure out where exactly an issue is.
 - It is not an efficient approach for teams wanting to implement continuous integration and continuous delivery.
-=======
-## Contents
-
-- [GitHub Flow](#github-flow)
-- [GitLab Flow](#gitlab-flow)
 
 ## GitHub Flow
 
@@ -82,7 +82,6 @@ When the feedback has been discussed and implemented, the final version in the _
 - Its less strict and it initially lacks tools to secure control over a project.
 - It could be considered volatile compared to other Flows due to its fast deployment.
 - Its not the best fit for projects that ship more infrequently.
->>>>>>> main
 
 ## GitLab Flow
 
