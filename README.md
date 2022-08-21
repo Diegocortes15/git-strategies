@@ -1,5 +1,6 @@
 # git-strategies
 
+<<<<<<< HEAD
 ## Git Flow
 
 Git flow is a branching strategy created by [Vincent Driessen](https://github.com/nvie). It enables parallel development where developers can work separately from the master branch on features where a feature branch is created from the master branch. Afterwards, when changes are complete, the developer merges these changes back to the master branch for release. 
@@ -38,6 +39,50 @@ This branching strategy consists of main branches and support branches.
 - As more branches are added, they may become difficult to manage as developers merge their changes from the development branch to the main.
 - It could become increasingly difficult to figure out where exactly an issue is.
 - It is not an efficient approach for teams wanting to implement continuous integration and continuous delivery.
+=======
+## Contents
+
+- [GitHub Flow](#github-flow)
+- [GitLab Flow](#gitlab-flow)
+
+## GitHub Flow
+
+[GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) is established on creating branches around features and 
+deploying often through Main.
+
+Whereas Git Flow focuses on keeping an alternate environment found in a dev branch, GitHub Flow makes use of a more direct and agile approach by merging (and deleting thereafter) completed working branches into main and assuming that whenever the prior happens then Main is ready for deployment.
+
+Having less intermediate steps, GitHub Flow favours simplicity and ease of use over thorough control, but that doesn't mean that is doesn't have tools to help maintain a proper production environment. Before any changes can be done to Main, merges from branches must go through a Pull Request such that they can be reviewed for functionality, quality and correctness before they are introduced and deployed.
+
+As such GitHub Flow is a workflow that is extremely easy to pick up and follow, which also provides some deployment guidelines to ensure quality and agility making it a popular choice for development projects.
+
+### In practice
+
+The flow starts with the **main** branch which becomes the base for future branches made with the purpose of developing new features.
+
+Once a _feature branch_ has finalized its development process, a Pull Request must be made in order to bring its changes over to **main**. Since the new changes are to be deployed once the Pull Request is approved, most of the times project directives are set in place such that there needs to be a review and subsequent green light provided by teams like QA in order to proceed with the merge.
+
+![](https://i0.wp.com/build5nines.com/wp-content/uploads/2018/01/GitHub-Flow.png?fit=900%2C310&ssl=1)
+
+When the feedback has been discussed and implemented, the final version in the _feature branch_ is evaluated via testing and if there are no problems then the merge is carried out to **main** and promptly deployed.
+
+### Why use GitHub Flow?
+
+[How GitHub Flow works and when to choose it](https://githubflow.github.io/)
+
+### Pros
+
+- Its simple which makes it easy to understand and apply.
+- It allows its old and new users to hit the ground running which also increases they're chances of mastering additional tools to improve its effectiveness and quality.
+- It favours agile projects that require constant deployment and generation of value.
+- It incentivizes consensus on the quality and the need of changes through the use of Pull Requests.
+
+### Cons
+
+- Its less strict and it initially lacks tools to secure control over a project.
+- It could be considered volatile compared to other Flows due to its fast deployment.
+- Its not the best fit for projects that ship more infrequently.
+>>>>>>> main
 
 ## GitLab Flow
 
