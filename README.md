@@ -7,6 +7,7 @@
 - [GitLab Flow](#gitlab-flow)
 - [Trunk Based Development](#trunk-based-development)
 - [Why we chose to use GitHub Flow](#why-we-chose-to-use-github-flow)
+- [Analysis](#analysis)
 
 ## Git Flow
 
@@ -191,3 +192,20 @@ Trunk-based development is currently the standard for high-performing engineerin
 ## Why we chose to use GitHub Flow
 
 Since we're learning to use Git, some for the first time, we decided to use GitHub Flow because of its simplicity to both understand and apply effectively. To do so we agreed upon the branches that would be required, established the rules for pushing to main, and followed the decided method accordingly. In addition, we required a flow that would be agile and adaptive given that, in learning, we would likely need to make unexpected or additional changes and integrate them in a fast manner to the main branch.
+
+## Analysis
+
+### Diego Cortés
+
+
+
+### Diego Sánchez
+
+
+
+### Juan Diego Rueda
+
+
+
+### Vanessa Cárdenas
+
