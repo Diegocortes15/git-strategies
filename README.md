@@ -7,6 +7,7 @@
 - [GitLab Flow](#gitlab-flow)
 - [Trunk Based Development](#trunk-based-development)
 - [Why we chose to use GitHub Flow](#why-we-chose-to-use-github-flow)
+- [Analysis](#analysis)
 
 ## Git Flow
 
@@ -178,16 +179,41 @@ Trunk-based development is currently the standard for high-performing engineerin
 
 ### References
 
-[Git Branching Strategies: GitFlow, Github Flow, Trunk Based](https://www.flagship.io/git-branching-strategies/#:~:text=Trunk-based%20development%20pros%20and%20cons%20As%20we%E2%80%99ve%20seen%2C,into%20the%20trunk%20without%20the%20need%20for%20branches.)
+- [Git Branching Strategies: GitFlow, Github Flow, Trunk Based](https://www.flagship.io/git-branching-strategies/#:~:text=Trunk-based%20development%20pros%20and%20cons%20As%20we%E2%80%99ve%20seen%2C,into%20the%20trunk%20without%20the%20need%20for%20branches.)
 
-[de desarrollo basado en troncos notas de aprendizaje](https://learning-notes.mistermicheels.com/processes-techniques/trunk-based-development/) 
+- [Desarrollo basado en troncos notas de aprendizaje](https://learning-notes.mistermicheels.com/processes-techniques/trunk-based-development/) 
 
-[Desarrollo basado en troncos | Atlassian](https://www.atlassian.com/es/continuous-delivery/continuous-integration/trunk-based-development)
+- [Desarrollo basado en troncos | Atlassian](https://www.atlassian.com/es/continuous-delivery/continuous-integration/trunk-based-development)
 
-[Qué es el desarrollo basado en troncos? | Estrategias de ramificación de Git](https://www.gitkraken.com/blog/trunk-based-development)
+- [Qué es el desarrollo basado en troncos? | Estrategias de ramificación de Git](https://www.gitkraken.com/blog/trunk-based-development)
 
-[Introducción](https://trunkbaseddevelopment.com/)
+- [Introduction Trunk based development](https://trunkbaseddevelopment.com/)
 
 ## Why we chose to use GitHub Flow
 
 Since we're learning to use Git, some for the first time, we decided to use GitHub Flow because of its simplicity to both understand and apply effectively. To do so we agreed upon the branches that would be required, established the rules for pushing to main, and followed the decided method accordingly. In addition, we required a flow that would be agile and adaptive given that, in learning, we would likely need to make unexpected or additional changes and integrate them in a fast manner to the main branch.
+
+## Analysis
+
+### Diego Cortés
+
+It is easy to follow the branches and keep only one version of the repository, besides this model proposes to work in agile way because allow us to work at the same time in the same project distributing
+our tasks having only one branch as production.
+
+This model does not allow keep different releases since our main branch act always as unique version in the project, leading to introduce possible bugs in production.
+Although in this project might be unnecesary keep different releases, in larger projects this could lead to problems.
+
+### Diego Sánchez
+
+Although I had not worked before with any git branching strategy, so I do not have hands-on experience with other strategies to compare, I can say that it was a great experience and a good strategy to continue using in other projects.  I found really useful for collaborative working the fact of doing a pull request for every change you do before merging to main, allowing your team to check whether all your contributions are appropiate or not.
+
+### Juan Diego Rueda
+
+The only difficulty that I found using GitHub Flow is whether it is required to create another branch to make small refactors or not. And the same applies to the pull requests to main, if I just need to change one letter on a written text then is it required to make a pull request for it or would that be a case where we could push directly?
+
+### Vanessa Cárdenas
+
+It seems to me that it is a good technique for small groups, because whenever a part is finished in the local branch, it must be reviewed, either by the team leader or someone who ensures the proper functioning, and then be joined to the master branch/main.
+
+However, I find it a bit tiring to have to use the Pull-request tool for every little change you make. 
+
