@@ -25,13 +25,13 @@ This branching strategy consists of main branches and support branches.
 ### In practice
 
 - New development (new features, non-emergency bug fixes) are built in `feature` branches.  
-- `Feature` branches are branched off of the `develop` branch, and finished features and fixes are merged back into the `develop` branch when theyâ€™re ready for release.  
+- `Feature` branches are branched off of the `develop` branch, and finished features and fixes are merged back into the `develop` branch when they are ready for release.  
 - When it is time to make a release, a `release` branch is created off of `develop`.  
-- The code in the `release` branch is deployed onto a suitable test environment, tested, and any problems are fixed directly in the `release` branch. This deploy &rarr; test &rarr; fix &rarr; redeploy &rarr; retest cycle continues until youâ€™re happy that the release is good enough to release to customers.  
-- When the release is finished, the `release` branch is merged into `master` and into `develop` too, to make sure that any changes made in the `release` branch arenâ€™t accidentally lost by new development.  
+- The code in the `release` branch is deployed onto a suitable test environment, tested, and any problems are fixed directly in the `release` branch. This deploy &rarr; test &rarr; fix &rarr; redeploy &rarr; retest cycle continues until you are happy that the release is good enough to release to customers.  
+- When the release is finished, the `release` branch is merged into `master` and into `develop` too, to make sure that any changes made in the `release` branch are not accidentally lost by new development.  
 - The `master` branch tracks released code only. The only commits to `master` are merges from `release` branches and `hotfix` branches.  
 - `Hotfix` branches are used to create emergency fixes.  
-- They are branched directly from a tagged release in the `master` branch, and when finished are merged back into both `master` and `develop` to make sure that the hotfix isnâ€™t accidentally lost when the next regular release occurs.  
+- They are branched directly from a tagged release in the `master` branch, and when finished are merged back into both `master` and `develop` to make sure that the hotfix is not accidentally lost when the next regular release occurs.  
 
 ![Git flow diagram](https://i.ibb.co/dgbP6Lj/GitFlow.jpg)
 
