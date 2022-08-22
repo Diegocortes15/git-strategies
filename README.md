@@ -46,6 +46,12 @@ This branching strategy consists of main branches and support branches.
 - It could become increasingly difficult to figure out where exactly an issue is.
 - It is not an efficient approach for teams wanting to implement continuous integration and continuous delivery.
 
+### References
+- [4 branching workflows for Git](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)
+- [What Are the Best Git Branching Strategies](https://www.flagship.io/git-branching-strategies/)
+- [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+- [Flujo de trabajo de Gitflow](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow)
+
 ## GitHub Flow
 
 [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) is established on creating branches around features and 
