@@ -209,7 +209,7 @@ Although in this project might be unnecesary keep different releases, in larger 
 
 ### Juan Diego Rueda
 
-
+The only difficulty that I found using GitHub Flow is whether it is required to create another branch to make small refactors or not. And the same applies to the pull requests to main, if I just need to change one letter on a written text then is it required to make a pull request for it or would that be a case where we could push directly?
 
 ### Vanessa Cárdenas
 
