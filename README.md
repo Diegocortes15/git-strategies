@@ -126,7 +126,7 @@ A tag must be created to mark a stable version of the system and the feature bra
 - It is more complex than GitHub Workflow
 - Git's history becomes unreadable due to the various Merge Requests between branches.
 
-### Trunk Based Development
+## Trunk Based Development
 
 Trunk Based Development is distinctly different in approach to the most popular Git branching strategies. Rather than relying on feature branches, Trunk Based Development has each developer work locally and independently on their project, and then merge their changes back into the main branch (the trunk) at least once a day. Merges must occur whether or not feature changes or additions are complete.
 Trunk-Based Development is a key enabler of Continuous Integration and by extension Continuous Delivery. When individuals on a team are committing their changes to the trunk multiple times a day it becomes easy to satisfy the core requirement of Continuous Integration that all team members commit to trunk at least once every 24 hours. This ensures the codebase is always releasable on demand and helps to make Continuous Delivery a reality.
