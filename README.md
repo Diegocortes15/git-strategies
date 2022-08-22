@@ -46,6 +46,12 @@ This branching strategy consists of main branches and support branches.
 - It could become increasingly difficult to figure out where exactly an issue is.
 - It is not an efficient approach for teams wanting to implement continuous integration and continuous delivery.
 
+### References
+- [4 branching workflows for Git](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)
+- [What Are the Best Git Branching Strategies](https://www.flagship.io/git-branching-strategies/)
+- [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+- [Flujo de trabajo de Gitflow](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow)
+
 ## GitHub Flow
 
 [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) is established on creating branches around features and 
@@ -83,6 +89,11 @@ When the feedback has been discussed and implemented, the final version in the _
 - Its less strict and it initially lacks tools to secure control over a project.
 - It could be considered volatile compared to other Flows due to its fast deployment.
 - Its not the best fit for projects that ship more infrequently.
+
+### References
+- Build Azure LLC (2018) Image. Taken from: https://i0.wp.com/build5nines.com/wp-content/uploads/2018/01/GitHub-Flow.png?fit=900%2C310&ssl=1
+- GitHub Docs (2022) "GitHub flow". Taken from: https://docs.github.com/en/get-started/quickstart/github-flow
+- githubflow (2022) "GitHub Flow". Taken from: https://githubflow.github.io/
 
 ## GitLab Flow
 
@@ -125,6 +136,12 @@ A tag must be created to mark a stable version of the system and the feature bra
 
 - It is more complex than GitHub Workflow
 - Git's history becomes unreadable due to the various Merge Requests between branches.
+
+### References
+
+- Rowan Haddad (March 8, 2022) [What Are the Best Git Branching Strategies](https://www.flagship.io/git-branching-strategies/#:~:text=A%20branching%20strategy%2C%20therefore%2C%20is,interact%20with%20a%20shared%20codebase)
+- Jadson Santos (May 16, 2021) [GitLab Flow](https://github.com/jadsonjs/gitlab-flow)
+- GitLab [Introduction to GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
 
 ## Trunk Based Development
 
