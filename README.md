@@ -197,7 +197,11 @@ Since we're learning to use Git, some for the first time, we decided to use GitH
 
 ### Diego Cortés
 
+It is easy to follow the branches and keep only one version of the repository, besides this model proposes to work in agile way because allow us to work at the same time in the same project distributing
+our tasks having only one branch as production.
 
+This model does not allow keep different releases since our main branch act always as unique version in the project, leading to introduce possible bugs in production.
+Although in this project might be unnecesary keep different releases, in larger projects this could lead to problems.
 
 ### Diego Sánchez
 
