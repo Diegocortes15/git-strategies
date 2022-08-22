@@ -133,11 +133,9 @@ A tag must be created to mark a stable version of the system and the feature bra
 
 ### References
 
-[What Are the Best Git Branching Strategies](https://www.flagship.io/git-branching-strategies/#:~:text=A%20branching%20strategy%2C%20therefore%2C%20is,interact%20with%20a%20shared%20codebase)
-
-[GitLab Flow](https://github.com/jadsonjs/gitlab-flow)
-
-[Introduction to GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
+- Rowan Haddad (March 8, 2022) [What Are the Best Git Branching Strategies](https://www.flagship.io/git-branching-strategies/#:~:text=A%20branching%20strategy%2C%20therefore%2C%20is,interact%20with%20a%20shared%20codebase)
+- Jadson Santos (May 16, 2021) [GitLab Flow](https://github.com/jadsonjs/gitlab-flow)
+- GitLab [Introduction to GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
 
 ## Trunk Based Development
 
