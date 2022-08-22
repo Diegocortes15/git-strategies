@@ -159,8 +159,13 @@ Trunk-based development is currently the standard for high-performing engineerin
 -	Trunk based development is also less capable of tracking individual changes. Whereas GitFlow is highly organized, using individual branches for each feature, trunk-based strategies dump all changes into the main branch no matter their state. It can be easier to lose track of the individual pieces. 
 
 ### References
+
 [Git Branching Strategies: GitFlow, Github Flow, Trunk Based](https://www.flagship.io/git-branching-strategies/#:~:text=Trunk-based%20development%20pros%20and%20cons%20As%20we%E2%80%99ve%20seen%2C,into%20the%20trunk%20without%20the%20need%20for%20branches.)
+
 [de desarrollo basado en troncos notas de aprendizaje](https://learning-notes.mistermicheels.com/processes-techniques/trunk-based-development/) 
+
 [Desarrollo basado en troncos | Atlassian](https://www.atlassian.com/es/continuous-delivery/continuous-integration/trunk-based-development)
+
 [Qué es el desarrollo basado en troncos? | Estrategias de ramificación de Git](https://www.gitkraken.com/blog/trunk-based-development)
+
 [Introducción](https://trunkbaseddevelopment.com/)
