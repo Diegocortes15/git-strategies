@@ -84,6 +84,11 @@ When the feedback has been discussed and implemented, the final version in the _
 - It could be considered volatile compared to other Flows due to its fast deployment.
 - Its not the best fit for projects that ship more infrequently.
 
+### References
+- Build Azure LLC (2018) Image. Taken from: https://i0.wp.com/build5nines.com/wp-content/uploads/2018/01/GitHub-Flow.png?fit=900%2C310&ssl=1
+- GitHub Docs (2022) "GitHub flow". Taken from: https://docs.github.com/en/get-started/quickstart/github-flow
+- githubflow (2022) "GitHub Flow". Taken from: https://githubflow.github.io/
+
 ## GitLab Flow
 
 [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) combines feature-driven development and feature branching with issue tracking.
