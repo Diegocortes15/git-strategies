@@ -5,6 +5,7 @@
 - [Git Flow](#git-flow)
 - [GitHub Flow](#github-flow)
 - [GitLab Flow](#gitlab-flow)
+- [Trunk Based Development](#trunk-based-development)
 
 ## Git Flow
 
@@ -24,13 +25,13 @@ This branching strategy consists of main branches and support branches.
 ### In practice
 
 - New development (new features, non-emergency bug fixes) are built in `feature` branches.  
-- `Feature` branches are branched off of the `develop` branch, and finished features and fixes are merged back into the `develop` branch when they’re ready for release.  
+- `Feature` branches are branched off of the `develop` branch, and finished features and fixes are merged back into the `develop` branch when theyâ€™re ready for release.  
 - When it is time to make a release, a `release` branch is created off of `develop`.  
-- The code in the `release` branch is deployed onto a suitable test environment, tested, and any problems are fixed directly in the `release` branch. This deploy &rarr; test &rarr; fix &rarr; redeploy &rarr; retest cycle continues until you’re happy that the release is good enough to release to customers.  
-- When the release is finished, the `release` branch is merged into `master` and into `develop` too, to make sure that any changes made in the `release` branch aren’t accidentally lost by new development.  
+- The code in the `release` branch is deployed onto a suitable test environment, tested, and any problems are fixed directly in the `release` branch. This deploy &rarr; test &rarr; fix &rarr; redeploy &rarr; retest cycle continues until youâ€™re happy that the release is good enough to release to customers.  
+- When the release is finished, the `release` branch is merged into `master` and into `develop` too, to make sure that any changes made in the `release` branch arenâ€™t accidentally lost by new development.  
 - The `master` branch tracks released code only. The only commits to `master` are merges from `release` branches and `hotfix` branches.  
 - `Hotfix` branches are used to create emergency fixes.  
-- They are branched directly from a tagged release in the `master` branch, and when finished are merged back into both `master` and `develop` to make sure that the hotfix isn’t accidentally lost when the next regular release occurs.  
+- They are branched directly from a tagged release in the `master` branch, and when finished are merged back into both `master` and `develop` to make sure that the hotfix isnâ€™t accidentally lost when the next regular release occurs.  
 
 ![Git flow diagram](https://i.ibb.co/dgbP6Lj/GitFlow.jpg)
 
@@ -124,3 +125,47 @@ A tag must be created to mark a stable version of the system and the feature bra
 
 - It is more complex than GitHub Workflow
 - Git's history becomes unreadable due to the various Merge Requests between branches.
+
+## Trunk Based Development
+
+Trunk Based Development is distinctly different in approach to the most popular Git branching strategies. Rather than relying on feature branches, Trunk Based Development has each developer work locally and independently on their project, and then merge their changes back into the main branch (the trunk) at least once a day. Merges must occur whether or not feature changes or additions are complete.
+Trunk-Based Development is a key enabler of Continuous Integration and by extension Continuous Delivery. When individuals on a team are committing their changes to the trunk multiple times a day it becomes easy to satisfy the core requirement of Continuous Integration that all team members commit to trunk at least once every 24 hours. This ensures the codebase is always releasable on demand and helps to make Continuous Delivery a reality.
+
+
+### In practice
+
+Trunk Based Development allow feature branches as a tool for code review, with some restrictions:
+-	Feature branches are short-lived (shorter is better, definitely not more than a few days)
+-	Only one developer commits to a given feature branch.
+-	Feature branches branch from the trunk and can only be merged to the trunk.
+-	Merging from the feature branch to trunk is allowed only once and also means the end of the feature branch
+-	Merging from trunk to bring the feature branch up to date with new changes is allowed anytime. It is especially recommended to bring your feature branch fully up to date with the trunk (and check that it builds) before actually merging into trunk.
+ 
+![Trunk based development diagram](https://learning-notes.mistermicheels.com/assets/images/feature-branch-a82a066350be743ce9b648b279ae55b1.png)
+
+### Why to use it?
+
+Trunk-based development is currently the standard for high-performing engineering teams since it sets and maintains a software release cadence by using a simplified Git branching strategy. Plus, trunk-based development gives engineering teams more flexibility and control over how they deliver software to the end user.
+
+### Pros
+
+-	Because trunk-based development does not require branches, this eliminates the stress of long-lived branches and hence, merge conflicts or the so-called ‘merge hell’ as developers are pushing small changes much more often. This also makes it easier to resolve any conflicts that may arise.
+-	trunk-based development is a key enabler of continuous integration (CI) and continuous delivery (CD) since changes are done more frequently to the trunk, often multiple times a day (CI) which allows features to be released much faster (CD).
+-	this strategy allows for quicker releases as the shared trunk is kept in a constant releasable state with a continuous stream of work being integrated into the trunk which results in a more stable release.
+
+### Cons
+
+-	Foundationally, trunk based development is more complicated than more traditional Git branching strategies, and thus requires more advanced development skills. 
+-	Trunk based development is also less capable of tracking individual changes. Whereas GitFlow is highly organized, using individual branches for each feature, trunk-based strategies dump all changes into the main branch no matter their state. It can be easier to lose track of the individual pieces. 
+
+### References
+
+[Git Branching Strategies: GitFlow, Github Flow, Trunk Based](https://www.flagship.io/git-branching-strategies/#:~:text=Trunk-based%20development%20pros%20and%20cons%20As%20we%E2%80%99ve%20seen%2C,into%20the%20trunk%20without%20the%20need%20for%20branches.)
+
+[de desarrollo basado en troncos notas de aprendizaje](https://learning-notes.mistermicheels.com/processes-techniques/trunk-based-development/) 
+
+[Desarrollo basado en troncos | Atlassian](https://www.atlassian.com/es/continuous-delivery/continuous-integration/trunk-based-development)
+
+[Qué es el desarrollo basado en troncos? | Estrategias de ramificación de Git](https://www.gitkraken.com/blog/trunk-based-development)
+
+[Introducción](https://trunkbaseddevelopment.com/)
