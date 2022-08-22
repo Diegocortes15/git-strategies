@@ -126,6 +126,14 @@ A tag must be created to mark a stable version of the system and the feature bra
 - It is more complex than GitHub Workflow
 - Git's history becomes unreadable due to the various Merge Requests between branches.
 
+### References
+
+[What Are the Best Git Branching Strategies](https://www.flagship.io/git-branching-strategies/#:~:text=A%20branching%20strategy%2C%20therefore%2C%20is,interact%20with%20a%20shared%20codebase)
+
+[GitLab Flow](https://github.com/jadsonjs/gitlab-flow)
+
+[Introduction to GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
+
 ## Trunk Based Development
 
 Trunk Based Development is distinctly different in approach to the most popular Git branching strategies. Rather than relying on feature branches, Trunk Based Development has each developer work locally and independently on their project, and then merge their changes back into the main branch (the trunk) at least once a day. Merges must occur whether or not feature changes or additions are complete.
