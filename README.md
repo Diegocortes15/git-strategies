@@ -205,7 +205,7 @@ Although in this project might be unnecesary keep different releases, in larger 
 
 ### Diego Sánchez
 
-
+Although I had not worked before with any git branching strategy, so I do not have hands-on experience with other strategies to compare, I can say that it was a great experience and a good strategy to continue using in other projects.  I found really useful for collaborative working the fact of doing a pull request for every change you do before merging to main, allowing your team to check whether all your contributions are appropiate or not.
 
 ### Juan Diego Rueda
 
